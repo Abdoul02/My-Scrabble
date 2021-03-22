@@ -16,7 +16,7 @@ public class MainApp {
         System.out.print("Enter file full path:");
 
         String filePath = scanner.nextLine();
-
+        System.out.println("Program running...");
         long startTime = System.nanoTime();
         readUsingJava8(filePath);
         long endTime = System.nanoTime();
